@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as Framer from "./framer_scripts/framer.K3G2LCX5.mjs"; // TODO: Find Why? `chunk-NAESFJNX.mjs` is not working Why?
 
-import augiA20IlPage from "./framer_scripts/NUvLnQMfst2j2z8iup7H/augiA20Il.js";
+import augiA20IlPage from "./components/augiA20Il.js";
 
 
 // const routes = {
@@ -39,6 +39,8 @@ import augiA20IlPage from "./framer_scripts/NUvLnQMfst2j2z8iup7H/augiA20Il.js";
 //         )
 //     }
 // };
+
+// TODO: all files are in the folder use them later on
 
 const routes = {
   augiA20Il: {

@@ -33517,14 +33517,14 @@ var FontshareSource = class {
     };
   }
   /**
-   * CAUTION: This method has to be exactly the same as the one in font-metadata-extractor tool. Because we are using the font selector to get open type features.
+   * CAUTION: This method has to be exactly the same as the one in font-webPageMetadata-extractor tool. Because we are using the font selector to get open type features.
    * https://github.com/framer/FramerStudio/blob/master/tools/font-metadata-extractor/src/utils/fontShare.ts
    */
   static createSelector(family, variant) {
     return `${fontsharePrefix}${family}-${variant.toLowerCase()}`;
   }
   /**
-   * CAUTION: This method has to be exactly the same as the one in font-metadata-extractor tool. Because we are using the font selector to get variable fontsvariation axes.
+   * CAUTION: This method has to be exactly the same as the one in font-webPageMetadata-extractor tool. Because we are using the font selector to get variable fontsvariation axes.
    * https://github.com/framer/FramerStudio/blob/master/tools/font-metadata-extractor/src/utils/fontShare.ts
    */
   static createVariationAxesSelector(family) {
@@ -33742,7 +33742,7 @@ var GoogleFontSource = class {
     return `${googleFontSelectorPrefix}${family}-${isVariableFont2 ? "variable-" : ""}${variant}`;
   }
   /**
-   * CAUTION: This method has to be exactly the same as the one in font-metadata-extractor tool. Because we are using the font selector to get variable fonts variation axes.
+   * CAUTION: This method has to be exactly the same as the one in font-webPageMetadata-extractor tool. Because we are using the font selector to get variable fonts variation axes.
    * https://github.com/framer/FramerStudio/blob/master/tools/font-metadata-extractor/src/utils/googleFonts.ts
    */
   static createVariationAxesSelector(family) {

@@ -25,42 +25,42 @@ import {
   withCSS,
   withMappedReactProps,
   withOptimizedAppearEffect,
-} from "framer"; // TODO: use this instead: `from "./framer_scripts/framer.K3G2LCX5.mjs";`
+} from "../framer_scripts/framer.K3G2LCX5.mjs";
 import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import HomeLogo from "#framer/local/canvasComponent/Cf1QnUccv/Cf1QnUccv.js";
-import SocialInstragram from "#framer/local/canvasComponent/DApmG2lm6/DApmG2lm6.js";
-import HomeUpdateInfo from "#framer/local/canvasComponent/DtDZpEoPO/DtDZpEoPO.js";
-import UtilitiesPopupArrow, * as UtilitiesPopupArrowInfo from "#framer/local/canvasComponent/DxUBUXd7c/DxUBUXd7c.js";
-import CursorDefault from "#framer/local/canvasComponent/e21CjDyFy/e21CjDyFy.js";
-import ToggleBriefDetail, * as ToggleBriefDetailInfo from "#framer/local/canvasComponent/Ggb8Lavra/Ggb8Lavra.js";
-import ToggleSound, * as ToggleSoundInfo from "#framer/local/canvasComponent/gxnimy5ij/gxnimy5ij.js";
-import HomeStatus, * as HomeStatusInfo from "#framer/local/canvasComponent/hII_2ClpN/hII_2ClpN.js";
-import HomeFooter from "#framer/local/canvasComponent/ih_RAIMJP/ih_RAIMJP.js";
-import HomeHeroTablet, * as HomeHeroTabletInfo from "#framer/local/canvasComponent/mFk05Wwh7/mFk05Wwh7.js";
-import ToggleNavArrow, * as ToggleNavArrowInfo from "#framer/local/canvasComponent/mXMEBBjVa/mXMEBBjVa.js";
-import ToggleTheme, * as ToggleThemeInfo from "#framer/local/canvasComponent/Oa1j0sIpg/Oa1j0sIpg.js";
-import ToggleMouse, * as ToggleMouseInfo from "#framer/local/canvasComponent/OmsoN6LDc/OmsoN6LDc.js";
-import ToggleBlogLanguageSwitcher, * as ToggleBlogLanguageSwitcherInfo from "#framer/local/canvasComponent/PQwe3R4AL/PQwe3R4AL.js";
-import SocialTwitter from "#framer/local/canvasComponent/QCWB403Ul/QCWB403Ul.js";
-import HomeNoticeContent from "#framer/local/canvasComponent/RczNJXWo7/RczNJXWo7.js";
-import HomePrimaryTitles from "#framer/local/canvasComponent/RRNO3Ym7J/RRNO3Ym7J.js";
-import UtilitiesAboutToggle from "#framer/local/canvasComponent/ssiJExs2v/ssiJExs2v.js";
-import SocialLinkedin from "#framer/local/canvasComponent/szbLJPNmx/szbLJPNmx.js";
-import SocialMail from "#framer/local/canvasComponent/Uz2YgEWdw/Uz2YgEWdw.js";
-import ButtonPrimary, * as ButtonPrimaryInfo from "#framer/local/canvasComponent/vNGDn_bs4/vNGDn_bs4.js";
-import ToggleClose, * as ToggleCloseInfo from "#framer/local/canvasComponent/VPFSIhH7_/VPFSIhH7_.js";
-import ToggleStyleGrid, * as ToggleStyleGridInfo from "#framer/local/canvasComponent/WaILNCwUS/WaILNCwUS.js";
-import ToggleDocker, * as ToggleDockerInfo from "#framer/local/canvasComponent/Xc8vEYAex/Xc8vEYAex.js";
-import UtilitiesPopupWheel, * as UtilitiesPopupWheelInfo from "#framer/local/canvasComponent/XmmnHeSMP/XmmnHeSMP.js";
-import HomeHeroPhone, * as HomeHeroPhoneInfo from "#framer/local/canvasComponent/zNfJs9xcz/zNfJs9xcz.js";
+import HomeLogo from "./Cf1QnUccv.js";
+import SocialInstragram from "./DApmG2lm6.js";
+import HomeUpdateInfo from "./DtDZpEoPO.js";
+import UtilitiesPopupArrow, * as UtilitiesPopupArrowInfo from "./DxUBUXd7c.js";
+import CursorDefault from "./e21CjDyFy.js";
+import ToggleBriefDetail, * as ToggleBriefDetailInfo from "./Ggb8Lavra.js";
+import ToggleSound, * as ToggleSoundInfo from "./gxnimy5ij.js";
+import HomeStatus, * as HomeStatusInfo from "./hII_2ClpN.js";
+import HomeFooter from "./ih_RAIMJP.js";
+import HomeHeroTablet, * as HomeHeroTabletInfo from "./mFk05Wwh7.js";
+import ToggleNavArrow, * as ToggleNavArrowInfo from "./mXMEBBjVa.js";
+import ToggleTheme, * as ToggleThemeInfo from "./Oa1j0sIpg.js";
+import ToggleMouse, * as ToggleMouseInfo from "./OmsoN6LDc.js";
+import ToggleBlogLanguageSwitcher, * as ToggleBlogLanguageSwitcherInfo from "./PQwe3R4AL.js";
+import SocialTwitter from "./QCWB403Ul.js";
+import HomeNoticeContent from "./RczNJXWo7.js";
+import HomePrimaryTitles from "./RRNO3Ym7J.js";
+import UtilitiesAboutToggle from "./ssiJExs2v.js";
+import SocialLinkedin from "./szbLJPNmx.js";
+import SocialMail from "./Uz2YgEWdw.js";
+import ButtonPrimary, * as ButtonPrimaryInfo from "./vNGDn_bs4.js";
+import ToggleClose, * as ToggleCloseInfo from "./VPFSIhH7_.js";
+import ToggleStyleGrid, * as ToggleStyleGridInfo from "./WaILNCwUS.js";
+import ToggleDocker, * as ToggleDockerInfo from "./Xc8vEYAex.js";
+import UtilitiesPopupWheel, * as UtilitiesPopupWheelInfo from "./XmmnHeSMP.js";
+import HomeHeroPhone, * as HomeHeroPhoneInfo from "./zNfJs9xcz.js";
 import {
   Options,
   Popup,
   Popup_Nav,
-} from "#framer/local/codeFile/lS9WEoa/Control_Center.js";
-import CMSList from "#framer/local/codeFile/MN6Fv7p/CMSList.js";
+} from "./Control_Center.js";
+import CMSList from "./CMSList.js";
 import {
   Filter_Visiblity,
   Layout_Change,
@@ -81,7 +81,7 @@ import {
   Transition_Overlayer_BG,
   Transition_Scrollbar,
   Type_Switch,
-} from "#framer/local/codeFile/aumXgnl/Page.js";
+} from "./Page.js";
 import {
   Control_Docker,
   Control_Layout_State,
@@ -94,15 +94,18 @@ import {
   Language_Toggle,
   Toggle_Setting2,
   Toggle_Text,
-} from "#framer/local/codeFile/KQvZO5g/Toggle.js";
+} from "./Toggle.js";
 import {
   Tooltip_Button,
   Tooltip_Info,
-} from "#framer/local/codeFile/aVqd8Ld/Utilities.js";
-import ScrollBarMax from "#framer/local/codeFile/aSSncmm/ScrollBarMax.js";
-import Segaments from "#framer/local/codeFile/TDzGk8I/Segaments.js";
-import * as sharedStyle from "#framer/local/css/sSyE5_N0_/sSyE5_N0_.js";
-import metadataProvider from "#framer/local/webPageMetadata/augiA20Il/augiA20Il.js";
+} from "./Utilities.js";
+import ScrollBarMax from "./ScrollBarMax.js";
+import Segaments from "./Segaments.js";
+import * as sharedStyle from "./sSyE5_N0_.js";
+
+import metadataProvider from "./webPageMetadata/augiA20Il.js";
+// import metadataProvider from "#framer/local/webPageMetadata/augiA20Il/augiA20Il.js";
+
 const HomeLogoFonts = getFonts(HomeLogo);
 const ContainerWithOptimizedAppearEffect = withOptimizedAppearEffect(Container);
 const HomeStatusFonts = getFonts(HomeStatus);
